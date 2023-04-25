@@ -74,8 +74,11 @@ Some of the most important commands are:
 * pyautogui.moveTo() - moves the mouse to a specific coordinate
 
 
-##### Task 4: Planning sequences of Events
+##### Task 0: Planning sequences of Events
 Write down the sequence of events or actions that you will need to program
 into your game.  You may want to check pauses if your game needs to wait
 for actions to complete. You will be submitting this document as part of
 your assessment.
+
+##### Task 1: Working with Time
+Create a program that will ask the user to type in a series of words.  Once they have finished typing them all in correctly
