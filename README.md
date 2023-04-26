@@ -36,43 +36,6 @@ This documentation page will help you install the module.
 example0:
 see how we can use the time() and sleep() methods in the time module
 
-#### Install pyautogui ####
-Install modules directly to your user account.
-This is often not the best approach as it installs the module globally to your computer rather than to a specific project. If you were a developer, you might install specific modules for specific projects to help you keep track of the dependences.
-We will use the commands
-```
-py -m pip install <module_name> --user
-```
-
-#### How to Take Screenshots ####
-* windows-I to open up your settings
-* search for "print screen".  The option to have print screen to take a screenshot should be found
-* open up the link and change the print screen to take a screen shot option to checked (it's a button)
-* to save a screenshot to your clipboard, press print-screen button (BlueFn > Print Screen)
-* it should give you the option to open snip and sketch where you can save it. You may need to open your notification center
-
-#### Locate Image Commands ####
-example1:
-using the pyautogui locate image commands
-
-example1a:
-how to restrict your image search to a specific region of the screen (speeds up the search)
-
-example1b:
-how to make the search "less strict". Sometimes pixelation in the image result in the image not being found. Lowering the confidence can help find images, but lowering it too much can find false positives, especially with numbers. For example, a 0 could be mistaken for an 8 if you're too loose in your confidence
-
-#### Getting Input ####
-Look at some of the commands on https://pyautogui.readthedocs.io/en/latest/msgbox.html.  Try experimenting with some of them to get user input while your autobot is running.
-
-#### Mouse Commands ####
-Take a look at: https://pyautogui.readthedocs.io/en/latest/mouse.html
-Some of the most important commands are:
-* pyautogui.position() - gets the current coordinates of the mouse
-* pyautogui.click() - clicks the mouse at the current location or you can specificy the location as a tuple
-* pyautogui.mouseDown() - presses the mouse button down (but does not release it)
-* pyautogui.mouseUp() - releases the mouse button if it is down
-* pyautogui.moveTo() - moves the mouse to a specific coordinate
-
 
 ##### Task 0: Planning sequences of Events
 Write down the sequence of events or actions that you will need to program
@@ -81,4 +44,38 @@ for actions to complete. You will be submitting this document as part of
 your assessment.
 
 ##### Task 1: Working with Time
-Create a program that will ask the user to type in a series of words.  Once they have finished typing them all in correctly
+Task 1
+Basic Assignment:
+Create a program to display 10 characters on screen, one at a time,
+to the user.  They have to press that key to advance to the next character.
+Tell the user how long it took them to press all 10 characters.
+
+Alternately, you can select a random word from a list of words that you provide.
+Have the user type in the word before the next word is selected.  This version
+is easier because you can use the existing input() command that you are more
+familiar with.
+
+Your assignment should make appropriate use of functions to break the
+code up into more manageable sections.  
+
+Your assignment will be graded on the following criteria:
+
+functionality (does it work the way it is intended)
+modularity (is it broken up into functions to make your main block momre readable)
+appropriate use of return values and input parameters
+
+#### Task 2: Install pyautogui ####
+Install modules directly to your user account.
+This is often not the best approach as it installs the module globally to your computer rather than to a specific project. If you were a developer, you might install specific modules for specific projects to help you keep track of the dependences.
+We will use the commands
+```
+py -m pip install <module_name> --user
+
+or
+
+pip install <module_name>
+```
+Install the following modules:
+pyautogui
+opencv-python
+pillow
