@@ -1,13 +1,9 @@
 ## SDSS Computing Studies Python Assignment
-### Assignment #9 Pyaugotui and Automation (Marks 10)
+### Assignment 030 Automation - Working with Time
 
 Objectives:
-* Use pyautogui locate image functions
-* Use pyautogui mouse controls
-* Use pyautogui pixel commands
-* Solve a complex problem through planning using code structures
-* Make use of prebuilt modules not native to the Python basic installation
-* Have programs receive automatic inputs.
+* Use the time module to introduce delays in your program
+* use the time.time() command to help keep track of elapsed time
 
 Automation is becoming a huge deal, with robots replacing people doing menial tasks every day.  Robots can be quite sophisticated, and are often able to mimic the roles that humans once filled.
 
