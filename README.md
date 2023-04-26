@@ -43,8 +43,13 @@ into your game.  You may want to check pauses if your game needs to wait
 for actions to complete. You will be submitting this document as part of
 your assessment.
 
-##### Task 1: Working with Time
-Task 1
+##### Task 1: What does it do?
+Open up the example0.py and example1.py
+In your own words, explain what is happening in each program.  You can refer to
+the line numbers in the files to help you reference parts of the program.
+
+##### Task 2: Working with Time
+Task 2
 Basic Assignment:
 Create a program to display 10 characters on screen, one at a time,
 to the user.  They have to press that key to advance to the next character.
@@ -64,7 +69,7 @@ functionality (does it work the way it is intended)
 modularity (is it broken up into functions to make your main block momre readable)
 appropriate use of return values and input parameters
 
-#### Task 2: Install pyautogui ####
+#### Task 3: Install pyautogui ####
 Install modules directly to your user account.
 This is often not the best approach as it installs the module globally to your computer rather than to a specific project. If you were a developer, you might install specific modules for specific projects to help you keep track of the dependences.
 We will use the commands
